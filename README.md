@@ -101,16 +101,6 @@ Implemented in `modeling.ipynb` using Random Forest Regression (performed the be
 
 ![Model Performance Plot](plots/predictedVSactual.png)
 
-## Conclusion
-
-This project implemented a full-cycle machine learning pipeline for insurance premium prediction using real-world vehicle and policy data from Kazakhstan. It consisted of rigorous data cleaning, targeted exploratory data analysis, and supervised regression modeling.
-
-Key outcomes include:
-
-- A reusable data cleaning class (`InsuranceDataCleaner`) that handles structural inconsistencies, categorical normalization, and feature engineering.
-- Insights from exploratory data analysis revealing key drivers of premium variation: insurance duration, driver experience, and Bonus-Malus score.
-- A Random Forest Regressor trained on engineered features, validated via cross-validation, and assessed using RMSE and residual diagnostics.
-
 ## Model Limitations and Areas for Further Development
 
 ### 1. **Underperformance on High-Premium Predictions**
@@ -127,3 +117,15 @@ Key outcomes include:
 - Validation RMSE remains consistently higher than training RMSE, indicating some degree of **overfitting**.
 
 ![Learning Curve](plots/LearningCurve.png)
+
+## Conclusion
+
+This project implemented a full-cycle machine learning pipeline for insurance premium prediction using real-world vehicle and policy data from Kazakhstan. It consisted of rigorous data cleaning, targeted exploratory data analysis, and supervised regression modeling.
+
+Key outcomes include:
+
+- A reusable data cleaning class (`InsuranceDataCleaner`) that handles structural inconsistencies, categorical normalization, and feature engineering.
+- Insights from exploratory data analysis revealing key drivers of premium variation: insurance duration, driver experience, and Bonus-Malus score.
+- A Random Forest Regressor trained on engineered features, validated via cross-validation, and assessed using RMSE and residual diagnostics.
+
+
